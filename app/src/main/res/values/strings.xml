@@ -16,4 +16,6 @@
     <string name="venues">Venues</string>
     <string name="shipping">Shipping</string>
     <string name="HousesActivityLabel">Houses</string>
+    <string name="filter">Filter</string>
+    <string name="max_price">Max Price</string>
 </resources>
