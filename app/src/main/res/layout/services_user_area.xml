@@ -8,6 +8,17 @@
    android:layout_marginTop="15dp"
     >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontFamily="@font/montserrat_regular"
+        android:textSize="15sp"
+        android:text="@string/services"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal"
+        />
+
 
 
 
@@ -41,6 +52,7 @@
 
 
         <ImageView
+            android:id="@+id/houses_services_user_area"
             android:src="@drawable/rent_icon_colored_filled"
             android:layout_width="30dp"
             android:layout_height="30dp"/>
@@ -53,7 +65,7 @@
             android:layout_height="wrap_content"
             android:text="@string/houses"
             android:textSize="12sp"
-
+            app:fontFamily="@font/montserrat_regular"
             />
 
 
@@ -96,7 +108,7 @@
            android:layout_height="wrap_content"
            android:text="@string/land"
            android:textSize="12sp"
-
+           app:fontFamily="@font/montserrat_regular"
            />
 
 
@@ -134,7 +146,7 @@
             android:layout_height="wrap_content"
             android:text="@string/transport"
             android:textSize="12sp"
-
+            app:fontFamily="@font/montserrat_regular"
             />
 
 
@@ -175,7 +187,7 @@
             android:layout_height="wrap_content"
             android:text="@string/events"
             android:textSize="12sp"
-
+            app:fontFamily="@font/montserrat_regular"
             />
 
 
@@ -235,7 +247,7 @@
                 android:layout_height="wrap_content"
               android:text="@string/shop"
                 android:textSize="12sp"
-
+                app:fontFamily="@font/montserrat_regular"
                 />
 
 
@@ -280,7 +292,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/shipping"
                 android:textSize="12sp"
-
+                app:fontFamily="@font/montserrat_regular"
                 />
 
 
@@ -318,7 +330,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hotels"
                 android:textSize="12sp"
-
+                app:fontFamily="@font/montserrat_regular"
                 />
 
 
@@ -359,7 +371,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/venues"
                 android:textSize="12sp"
-
+                app:fontFamily="@font/montserrat_regular"
                 />
 
 

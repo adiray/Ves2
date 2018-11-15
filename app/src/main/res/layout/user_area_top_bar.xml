@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
 
 
@@ -26,12 +27,12 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginEnd="35dp"
             android:layout_marginStart="20dp"
-
+android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/user_profile_icon_white_filled"
                 />
 
@@ -39,7 +40,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/profile"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/cardview_light_background"
+                android:textSize="12sp"
+                app:fontFamily="@font/montserrat_regular"
+                />
 
         </LinearLayout>
 
@@ -49,18 +53,24 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginEnd="35dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+
+            >
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/user_wallet_icon_white_filled" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/wallet"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/cardview_light_background"
+                android:textSize="12sp"
+                app:fontFamily="@font/montserrat_regular"
+                />
 
 
         </LinearLayout>
@@ -70,18 +80,23 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginEnd="35dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/user_orders_icon_white_filled" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/history"
-                android:textColor="@color/cardview_light_background" />
+                android:textColor="@color/cardview_light_background"
+                android:textSize="12sp"
+                app:fontFamily="@font/montserrat_regular"
+                />
 
         </LinearLayout>
 
@@ -90,12 +105,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginEnd="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
 
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:src="@drawable/user_likes_icon_white_filled"
 
                 />
@@ -105,7 +122,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/saved"
                 android:textColor="@color/cardview_light_background"
-
+                android:textSize="12sp"
+                app:fontFamily="@font/montserrat_regular"
                 />
 
 
